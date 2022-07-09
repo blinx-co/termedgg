@@ -45,3 +45,30 @@ div {
     align-items: center;
     width: 99%;
 }
+
+.button {
+    background-color: rgb(80,80,80);
+    height: 23px;
+    border-radius: 6px;
+    border-style: none;
+    color: rgb(179, 179, 179);
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    align-items: center;
+}
+
+.buttonText {
+    font-size: 15px;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    position: relative;
+    bottom: 4px;
+}
+
+.button :hover {
+    color: rgb(101, 183, 255);
+    cursor: copy;
+}

@@ -9,15 +9,46 @@
     <meta name="keywords" content="blinx, termed, discord, accounts, list, website, site, 2022">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <title>termed.gg</title>
 </head>
 <body>
     <p class="x-title">A list of my discord accounts.</p>
-        <p id="account">blinx#0001</label>
+        <p id="account1">blinx#0001</label>
         <label id="active" class="active">Active</label>
+        <button onclick="activeC()" class="button">
+            <label class="buttonText">
+                Copy
+            </label>
+        </button>
         <br>
         <p id="account">blinx#2127</label>
-        <label id="active" class="termed">Termed / Disabled</label>
+        <label id="termed1" class="termed">Termed / Disabled</label>
+        <button onclick="termedC()" class="button">
+            <label class="buttonText">
+                Copy
+            </label>
+        </button>
+
+    <script>
+        function activeC() {
+            navigator.clipboard.writeText("blinx#0001");
+        }
+
+        function alertt() {
+            alert("Copied to clipboard!")
+        }
+
+        function termedC() {
+            navigator.clipboard.writeText("blinx#2127");
+        }
+
+        function test() {
+            navigator.clipboard.writeText("hello");
+            alert("Copied to clipboard!")
+        }
+    </script>
 </body>
 </html>
