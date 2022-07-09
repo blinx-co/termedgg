@@ -72,3 +72,14 @@ div {
     color: rgb(101, 183, 255);
     cursor: copy;
 }
+
+a {
+    font-size: 15px;
+    background-color: transparent;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
