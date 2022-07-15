@@ -1,85 +1,30 @@
 * {
-    background-color: rgb(26, 26, 26);
-}
-
-p {
-    color: rgb(243, 243, 243);
-    font-family: sans-serif;
-    font: 300;
-    font-size: 0.7cm;
-    font-weight: lighter;
-    width: 99%;
-    text-align: center;
-}
-
-.x-title {
-    color: rgb(255, 255, 255);
-}
-
-#formItem label {
-    display: block;
-    text-align: center;
-    line-height: 150%;
-    font-size: .85em;
-}
-
-label {
-    color: rgb(230, 230, 230);
-    font-family: sans-serif;
-    font: 300;
-    font-size: 0.7cm;
-    font-weight: lighter;
-    width: 99%;
-    text-align: center;
-}
-
-.active {
-    color: rgb(47, 255, 61);
-}
-
-.termed {
-    color: rgb(190, 31, 31);
-}
-
-div {
+    box-sizing: border-box;
+    background-color: rgb(23, 23, 25);
+    padding: 10px;
+    color: rgb(23, 23, 25);
     align-items: center;
-    width: 99%;
+    display: flex;
+    justify-content: center;
 }
 
-.button {
-    background-color: rgb(80,80,80);
-    height: 23px;
-    border-radius: 6px;
-    border-style: none;
-    color: rgb(179, 179, 179);
+body {
+    font-size: 14px;
+    height: auto;
+}
+
+.Card1 {
     position: relative;
-    margin-bottom: 0px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    align-items: center;
+    margin-top: auto;
 }
 
-.buttonText {
-    font-size: 15px;
-    background-color: transparent;
-    padding-top: 20px;
-    padding-bottom: 2px;
+.Card2 {
     position: relative;
-    bottom: 4px;
+    margin: auto;
 }
 
-.button :hover {
-    color: rgb(101, 183, 255);
-    cursor: copy;
-}
-
-a {
-    font-size: 15px;
-    background-color: transparent;
-    padding-top: 20px;
-    padding-bottom: 2px;
-    position: relative;
-    bottom: 4px;
-    text-decoration: none;
-    color: rgb(230, 230, 230);
+.Button {
+    background-color: rgb(20, 20, 22);
+    border-radius: 10px;
+    border-color: transparent;
 }

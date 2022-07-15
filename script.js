@@ -1,5 +1,1 @@
-function termedText() {
-    var text = document.getElementById("termed");
-
-    
-}
+// no lol.
