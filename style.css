@@ -28,3 +28,13 @@ body {
     border-radius: 10px;
     border-color: transparent;
 }
+
+.Test {
+    width: 99%;
+    height: 99%;
+    border-radius: 10px;
+}
+
+.Bg {
+    border-radius: 10px;
+}
